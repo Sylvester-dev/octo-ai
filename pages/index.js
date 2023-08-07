@@ -1,9 +1,10 @@
 import React from 'react'
-import { Header } from '../Components/Home'
+import { Header, AnimatedCursor } from '../Components/Home'
 
 const index = () => {
   return (
     <div>
+      <AnimatedCursor/>
       <Header />
     </div>
   );
