@@ -1,11 +1,12 @@
 import React from 'react'
-import { Header, AnimatedCursor } from '../Components/Home'
+import { Header, AnimatedCursor, HeroSection } from '../Components/Home'
 
 const index = () => {
   return (
     <div>
       <AnimatedCursor/>
       <Header />
+      <HeroSection/>
     </div>
   );
 };
