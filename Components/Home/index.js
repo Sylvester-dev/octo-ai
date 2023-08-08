@@ -21,5 +21,5 @@ export {
   Faq,
   Info,
   Footer,
-  Price
+  Price,
 };
