@@ -6,6 +6,9 @@ import AboutRight from "./AboutRight";
 import AboutThird from "./AboutThird";
 import Feature from "./Feature";
 import Faq from "./Faq";
+import Info from "./Info";
+import Footer from "./Footer";
+import Price from "./Price";
 
 export {
   Header,
@@ -15,5 +18,8 @@ export {
   AboutRight,
   AboutThird,
   Feature,
-  Faq
+  Faq,
+  Info,
+  Footer,
+  Price
 };
