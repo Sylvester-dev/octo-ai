@@ -4,7 +4,11 @@ import { FaVideo, FaStar } from "react-icons/fa";
 const HeroSection = () => {
   return (
     <section class="home-section">
-      <div class="container">
+      <div class="info-box container"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          >
         <div class="row">
           <div class="col-12">
             <div class="home-content">
@@ -71,6 +75,7 @@ const HeroSection = () => {
                     alt="hand"
                   />
                 </div>
+                
                 <img
                   src="assets/images/home/laptop.png"
                   class="img-fluid laptop-img"
