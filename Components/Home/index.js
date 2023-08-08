@@ -5,6 +5,7 @@ import About from "./About";
 import AboutRight from "./AboutRight";
 import AboutThird from "./AboutThird";
 import Feature from "./Feature";
+import Faq from "./Faq";
 
 export {
   Header,
@@ -13,5 +14,6 @@ export {
   About,
   AboutRight,
   AboutThird,
-  Feature
+  Feature,
+  Faq
 };
