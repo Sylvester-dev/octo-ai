@@ -9,6 +9,7 @@ import Faq from "./Faq";
 import Info from "./Info";
 import Footer from "./Footer";
 import Price from "./Price";
+import Service from "./Service";
 
 export {
   Header,
@@ -22,4 +23,5 @@ export {
   Info,
   Footer,
   Price,
+  Service
 };
