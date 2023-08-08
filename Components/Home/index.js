@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import About from "./About";
 import AboutRight from "./AboutRight";
 import AboutThird from "./AboutThird";
+import Feature from "./Feature";
 
 export {
   Header,
@@ -11,5 +12,6 @@ export {
   HeroSection,
   About,
   AboutRight,
-  AboutThird
+  AboutThird,
+  Feature
 };

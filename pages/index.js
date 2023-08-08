@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, AnimatedCursor, HeroSection, About, AboutRight, AboutThird } from '../Components/Home'
+import { Header, AnimatedCursor, HeroSection, About, AboutRight, AboutThird, Feature } from '../Components/Home'
 
 const index = () => {
   return (
@@ -10,6 +10,7 @@ const index = () => {
       <About/>
       <AboutRight/>
       <AboutThird/>
+      <Feature/>
     </div>
   );
 };
