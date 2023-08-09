@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
 
+//INTERNAL IMPORT
+import { SideBar, Chat, Help, History, Subscription, Setting } from "./index";
 const Chatting = () => {
   return (
-    <div>Chatting</div>
-  )
-}
+    <section class="chatting-wrapper pt-0">
+      <SideBar />
+      <div class="tab-content">
+        <Chat />
+        <History />
+        <Subscription />
+        <Help />
+        <Setting />
+      </div>
+    </section>
+  );
+};
 
-export default Chatting
+export default Chatting;
