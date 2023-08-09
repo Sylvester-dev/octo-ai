@@ -9,6 +9,10 @@ const chat = () => {
     <div>
       <Chatting />
       <Modal />
+
+      {/* CHATGPT */}
+      <script type="module" src="script.js"></script>
+      {/* CHATGPT */}
     </div>
   );
 };
