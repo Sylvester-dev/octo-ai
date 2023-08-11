@@ -1,23 +1,42 @@
-import React from 'react'
-import { Header, AnimatedCursor, HeroSection, About, AboutRight, AboutThird, Feature, Faq, Info, Footer, Price, Service } from '../Components/Home'
+import React, { useState, useEffect } from "react";
+
+//INTERNAL IMPORT
+import {
+  Header,
+  Footer,
+  HeroSection,
+  About,
+  AboutRight,
+  AboutThird,
+  Faq,
+  Feature,
+  Info,
+  Price,
+  Service,
+  Tap,
+  Testimonial,
+} from "../Components/Home/index";
+import { useStateContext } from "../Context/index";
 
 const index = () => {
+  const { listMembership } = useStateContext();
+
   return (
     <div>
-      <AnimatedCursor/>
+      <button onClick={() => listMembership()}>LIST MEMBERSHIP</button>
       <Header />
-      <HeroSection/>
-      <Service/>
-      <About/>
-      <AboutRight/>
-      <AboutThird/>
-      <Feature/>
-      <Price/>
-      <Faq/>
-      <Info/>
-      <Footer/>
+      <HeroSection />
+      <Service />
+      <About />
+      <AboutRight />
+      <AboutThird />
+      <Feature />
+      <Price />
+      <Faq />
+      <Info />
+      <Footer />
     </div>
   );
 };
 
-export default index
+export default index;
